@@ -1,15 +1,21 @@
 .header{
     color: #244d4d;
-
+    padding: 44px 0px 27px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 
-    div{
+    & div{
         display: flex;
         justify-content: space-between;
         gap: 5px;
+        font-family: DM Sans;
+        color: black;
+        & h2{
+            font-family: Montserrat;
+            font-size: 24px;
+        }
     }
 }
 

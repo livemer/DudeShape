@@ -1,5 +1,12 @@
 .popular{
-  h3{
+  & h1{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 20px;
+  }
+  & h3{
     max-width: 900px;
     margin-bottom: 100px;
   }
@@ -15,19 +22,30 @@
   background-color: white;
   box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.11);
   list-style: none;
-  h2{
+  & h2{
     font-family: DM Sans;
     font-weight: 500;
   }
-  div
+  & div
   {
-    padding: 10px 20px;
-    div{
+    padding: 30px 24px 27px;
+    & div{
       padding: 0;
       display: flex;
       justify-content: space-between;
+      h2{
+        font-family: DM Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 27px;
+      }
     }
   }
+}
+
+.popular-card-up{
+  margin-bottom: 21px;
 }
 
 button{

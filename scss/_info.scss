@@ -4,16 +4,19 @@
 }
 .info-main{
     background-color: #154444;
-    padding: 51px 18px 137px 100px;
-    h1{
+    padding: 101px 18px 137px 100px;
+    & h1{
         font-size: 56px;
+        margin-bottom: 20px;
     }
-    h3{
+    & h3{
         font-weight: 400;
         font-size: 20px;
         max-width: 488px;
         font-family:DM Sans;
         color: white;
+        margin-bottom: 35px;
+        line-height: 25px;
     }
 }
 .info-button{
