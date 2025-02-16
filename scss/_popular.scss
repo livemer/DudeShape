@@ -1,0 +1,41 @@
+.popular{
+  h3{
+    max-width: 900px;
+    margin-bottom: 100px;
+  }
+}
+
+.popular-cards{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.popular-card{
+  background-color: white;
+  box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.11);
+  list-style: none;
+  h2{
+    font-family: DM Sans;
+    font-weight: 500;
+  }
+  div
+  {
+    padding: 10px 20px;
+    div{
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+button{
+  font-size: 12px;
+  font-family:DM Sans;
+  font-weight: 400;
+  background-color: #154444;
+  color: white;
+  padding: 10px;
+  border: none;
+}

@@ -1,0 +1,19 @@
+.header{
+    color: #244d4d;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    div{
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+    }
+}
+
+.header-right{
+    max-width: 500px;
+    flex-grow: 1;
+}

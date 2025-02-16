@@ -1,0 +1,18 @@
+.companies{
+    display: flex;
+    justify-content: center;
+    margin: 140px 0;
+    h2{
+        font-size: 32px;
+        text-align: center;
+        color: #244D4D;
+        margin-bottom: 60px;
+    }
+}
+.companies-list{
+    display: flex;
+    gap: 150px;
+}
+.companies-item{
+    list-style: none;
+}

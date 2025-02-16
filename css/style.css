@@ -1,0 +1,180 @@
+.header {
+  color: #244d4d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.header div {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.header-right {
+  max-width: 500px;
+  flex-grow: 1;
+}
+
+.info {
+  display: flex;
+  color: white;
+}
+
+.info-main {
+  background-color: #154444;
+  padding: 51px 18px 137px 100px;
+}
+.info-main h1 {
+  font-size: 56px;
+}
+.info-main h3 {
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 488px;
+  font-family: DM Sans;
+  color: white;
+}
+
+.info-button {
+  padding: 16px 26px;
+  font-size: 20px;
+  font-family: DM Sans;
+  font-weight: 400;
+  background-color: white;
+  color: #154444;
+}
+
+.companies {
+  display: flex;
+  justify-content: center;
+  margin: 140px 0;
+}
+.companies h2 {
+  font-size: 32px;
+  text-align: center;
+  color: #244D4D;
+  margin-bottom: 60px;
+}
+
+.companies-list {
+  display: flex;
+  gap: 150px;
+}
+
+.companies-item {
+  list-style: none;
+}
+
+.about {
+  display: flex;
+}
+
+.about-main {
+  padding: 0 18px 137px 100px;
+}
+.about-main h1 {
+  font-size: 36px;
+  color: #244D4D;
+}
+.about-main h2 {
+  font-size: 20px;
+  color: #244D4D;
+  margin: 0;
+}
+
+.about-list {
+  padding: 0;
+  margin-top: 40px;
+}
+
+.about-item {
+  list-style: none;
+  gap: 20px;
+  display: flex;
+}
+
+.popular h3 {
+  max-width: 900px;
+  margin-bottom: 100px;
+}
+
+.popular-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.popular-card {
+  background-color: white;
+  box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.11);
+  list-style: none;
+}
+.popular-card h2 {
+  font-family: DM Sans;
+  font-weight: 500;
+}
+.popular-card div {
+  padding: 10px 20px;
+}
+.popular-card div div {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  font-size: 12px;
+  font-family: DM Sans;
+  font-weight: 400;
+  background-color: #154444;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(/fonts/Montserrat-Bold-BSrD1I5P.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: DM Sans;
+  src: url(/fonts/DMSans-Regular-Bw-KDgr1.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: DM Sans;
+  src: url(/fonts/DMSans-Medium-CRZfJduw.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: DM Sans;
+  src: url(/fonts/DMSans-Bold-VVlVe7G0.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  background: #fcfbff;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: DM Sans;
+  color: #244D4D;
+}
+
+div {
+  font-family: Montserrat;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */
