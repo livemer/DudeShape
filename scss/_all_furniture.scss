@@ -1,0 +1,113 @@
+.all_furniture{
+    margin-bottom: 140px;
+    h1{
+        color: #242424;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+.all_furniture-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 101px;
+    margin-bottom: 80px;
+}
+.all_furniture-nav-item{
+    color:rgb(161, 161, 161);
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    position: relative;
+}
+.all_furniture-nav-item-active{
+    color: #154444;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    position: relative;
+}
+.all_furniture-nav-item-active::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 57px;
+    height: 3px;
+    background: #154444;
+}
+
+.all_furniture-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all_furniture-content-buttons{
+    flex: 0 1 474px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 34px 30px;
+}
+
+.all_furniture-content-buttons-item{
+    background-color: whitesmoke;
+    display: flex;
+        flex-direction: column;
+        gap: 14px;
+        align-items: center;
+        padding: 16px;
+        border: 2px solid #d9dce5;
+        transition: all .3s linear;
+        h3{
+            color: gray;
+            font-family: DM Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 21px;
+        }
+}
+
+.all_furniture-content-buttons-item:hover{
+    background-color: #154444;
+    path{
+        fill: white;
+    }
+    h3{
+        color: white;
+    }
+}
+
+.all_furniture-content-buttons-item-a{
+    display: flex;
+        flex-direction: column;
+        gap: 14px;
+        align-items: center;
+        padding: 16px;
+        border: 2px solid #d9dce5;
+        transition: all .3s linear;
+        path{
+            fill: white;
+        }
+        h3{
+            color: white;
+            font-family: DM Sans;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 21px;
+        }
+}

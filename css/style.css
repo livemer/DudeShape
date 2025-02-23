@@ -109,6 +109,9 @@
   display: flex;
 }
 
+.popular {
+  margin-bottom: 140px;
+}
 .popular h1 {
   font-size: 32px;
   font-style: normal;
@@ -164,6 +167,302 @@ button {
   color: white;
   padding: 10px;
   border: none;
+}
+
+.all_furniture {
+  margin-bottom: 140px;
+}
+.all_furniture h1 {
+  color: #242424;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.all_furniture-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 101px;
+  margin-bottom: 80px;
+}
+
+.all_furniture-nav-item {
+  color: rgb(161, 161, 161);
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  position: relative;
+}
+
+.all_furniture-nav-item-active {
+  color: #154444;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  position: relative;
+}
+
+.all_furniture-nav-item-active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 57px;
+  height: 3px;
+  background: #154444;
+}
+
+.all_furniture-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.all_furniture-content-buttons {
+  flex: 0 1 474px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 34px 30px;
+}
+
+.all_furniture-content-buttons-item {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  padding: 16px;
+  border: 2px solid #d9dce5;
+  transition: all 0.3s linear;
+}
+.all_furniture-content-buttons-item h3 {
+  color: gray;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.all_furniture-content-buttons-item:hover {
+  background-color: #154444;
+}
+.all_furniture-content-buttons-item:hover path {
+  fill: white;
+}
+.all_furniture-content-buttons-item:hover h3 {
+  color: white;
+}
+
+.all_furniture-content-buttons-item-a {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  padding: 16px;
+  border: 2px solid #d9dce5;
+  transition: all 0.3s linear;
+}
+.all_furniture-content-buttons-item-a path {
+  fill: white;
+}
+.all_furniture-content-buttons-item-a h3 {
+  color: white;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.customers {
+  margin-bottom: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.customers div h2 {
+  color: #242424;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 20px;
+}
+.customers div p {
+  color: #383738;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 40px;
+}
+
+.subscribe {
+  background: #f4f6f6;
+  padding: 68px 20px 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 140px;
+}
+.subscribe h1 {
+  color: #222;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 20px;
+  max-width: 605px;
+}
+.subscribe h3 {
+  color: #222;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 40px;
+  max-width: 493px;
+}
+.subscribe form {
+  background: #fff;
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 471px;
+}
+.subscribe form svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 18px;
+  width: 17px;
+  height: 17px;
+}
+.subscribe form input {
+  flex: 1 1 auto;
+  padding: 0 5px 0 45px;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+.subscribe form div {
+  padding: 8px 19px 8px 0;
+}
+.subscribe form div button {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  background: #305f64;
+  padding: 15px 32px;
+}
+
+.footer {
+  background: #305f64;
+}
+
+.footer-nav {
+  padding: 100px 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-nav div {
+  max-width: 300px;
+  color: white;
+  padding-right: 50px;
+}
+.footer-nav div h1 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.footer-nav div h2 {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+.footer-nav div h3 {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.footer-nav div div {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+.footer-nav div form {
+  margin-top: 30px;
+  background: #fff;
+  display: flex;
+  width: 100%;
+}
+.footer-nav div form input {
+  padding: 0 0px 0 20px;
+  color: #000;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.footer-nav div form div {
+  padding: 4px;
+}
+.footer-nav div form div button {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  background: none;
+}
+
+.footer-end {
+  border-top: #4e98a0 2px solid;
+}
+.footer-end h1 {
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  font-weight: 500;
+  font-family: DM Sans;
+  font-style: normal;
 }
 
 body {
